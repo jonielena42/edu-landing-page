@@ -19,3 +19,16 @@
   text-decoration: none;
   display: block;
 }
+.site-title {
+  position: relative;
+  top: 20px;
+  text-align: center;
+  color: darkgrey;
+  font-family: sans-serif;
+}
+
+.site-description {
+  text-align: center;
+  color: mediumgrey;
+  font-family: sans-serif;
+}
