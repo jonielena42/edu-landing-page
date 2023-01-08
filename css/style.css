@@ -22,6 +22,16 @@ h2 {
 .menu-item {
   display: block;
   margin: 10px;
+  /* Add styles for the menu buttons */
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.menu-item:hover {
+  background-color: grey;
 }
 /* Add styles for the toggle button */
 .menu-toggle {
