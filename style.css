@@ -11,3 +11,9 @@
 #menu.menu-open {
   left: 0;
 }
+#menu li {
+  height: 25%;
+  line-height: 200px; /* centers the text vertically */
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
