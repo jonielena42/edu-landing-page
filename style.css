@@ -50,12 +50,6 @@ nav.open {
   transform: translateX(0);
 }
 
-.nav-container {
-  position: absolute;
-  top: 25%;
-  width: 100%;
-}
-
 button {
   width: 100%;
   background-color: transparent;
