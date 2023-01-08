@@ -1,21 +1,23 @@
 <html>
   <head>
-    <style>
-      body {
-        background-color: white;
-      }
-      h1 {
-        color: darkgrey;
-        text-align: center;
-      }
-      h2 {
-        color: mediumgrey;
-        text-align: center;
-      }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <h1>Title</h1>
     <h2>Description</h2>
+    <!-- Add the toggle button -->
+    <div class="menu-toggle" onclick="toggleMenu()">
+      Projects
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <!-- Add the pop-out menu -->
+    <div class="menu" id="menu">
+      <a class="menu-item" href="#">Menu Item 1</a>
+      <a class="menu-item" href="#">Menu Item 2</a>
+      <a class="menu-item" href="#">Menu Item 3</a>
+    </div>
+    <script src="js/script.js"></script>
   </body>
 </html>
